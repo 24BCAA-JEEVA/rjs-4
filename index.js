@@ -1,7 +1,13 @@
 // Complete the function using object destructuring.
 
-function getStudentDetails(students) {
-    // Write your code here
+function getStudentDetails(student) {
+    const { name, age, grade } = student;
+
+    return {
+        name,
+        age,
+        grade
+    };
 }
 
 module.exports = getStudentDetails;
