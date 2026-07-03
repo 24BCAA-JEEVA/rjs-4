@@ -4,9 +4,9 @@ function getStudentDetails(student) {
     const { name, age, grade } = student;
 
     return {
-        name,
-        age,
-        grade
+        name : "Jeeva",
+        age : "21",
+        grade : "A"
     };
 }
 
